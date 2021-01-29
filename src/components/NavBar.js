@@ -1,16 +1,17 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
+import '../components/styles/navbar.css';
 
 function NavBar() {
     return (
         <div>
            <Navbar bg="light" variant="light">
-    <Navbar.Brand href="/">JP Castrillon Portfolio</Navbar.Brand>
+    <Navbar.Brand href="/">FutbolApp</Navbar.Brand>
     <Nav className="navbar">
-      <Nav.Link href="aboutme">About Me</Nav.Link>
-      <Nav.Link href="projects">Projects</Nav.Link>
-      <Nav.Link href="technologies">Technologies</Nav.Link>
-      <Nav.Link href="getintouch">Get in Touch</Nav.Link>
+      <Nav.Link href="aboutme">Top Leagues</Nav.Link>
+      <Nav.Link href="projects">Top Scorers</Nav.Link>
+      <Nav.Link href="technologies">Transfer News</Nav.Link>
+      <Nav.Link href="getintouch">Schedule</Nav.Link>
     </Nav>
   </Navbar>
         </div>
