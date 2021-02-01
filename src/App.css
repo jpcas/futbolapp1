@@ -1,11 +1,19 @@
 .herotitle {
-  font-size: 7vw;
+  font-size: 10vw;
   font-weight: 700;
   text-align: center;
-  color: red;
+  color: greenyellow;
   position: relative;
-  height: -10px;
-  
+  font-family: 'Righteous'; 
+}
+
+.herodescription {
+  font-size: 2.5vw;
+  color: whitesmoke;
+  position: relative;
+  font-family: 'Righteous'; 
+  font-weight: bold;
+  text-align: center;
 }
 
 
