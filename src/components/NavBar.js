@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">FutbolApp</Navbar.Brand>
+  <Navbar.Brand href="/">FutbolApp</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="navbar">
