@@ -46,7 +46,7 @@ function Scores() {
     </tr>
     <tr>
       <td></td>
-      <td>Team 1 : 0 Team</td>    
+      <td>Team 1 : 1 Team</td>    
     </tr>
     <tr>
       <td></td>
