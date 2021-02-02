@@ -4,78 +4,63 @@ import {Table} from 'react-bootstrap';
 function Scores() {
     return (
         <div>
-            <h1>Scores</h1>
-            <Table striped bordered hover variant="dark">
+<Table striped bordered hover variant="dark">
   <thead>
     <tr>
       <th>EPL</th>
       <th>Match</th>
- 
     </tr>
   </thead>
   <tbody>
     <tr>
       <td></td>
-      <td>Liverpool 3 : 0 Everton</td>
+      <td>Team 1 : 0 Team</td>    
     </tr>
     <tr>
       <td></td>
-      <td>Man City 3 : 3 Man United</td>
+      <td>Team 1 : 0 Team</td>    
     </tr>
     <tr>
       <td></td>
-      <td>Chelsea 0 : 0 Arsenal</td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td>La Liga</td>
+      <td>Match</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td>MLS</td>
+      <td>Match</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
+    </tr>
+    <tr>
+      <td></td>
+      <td>Team 1 : 0 Team</td>    
     </tr>
   </tbody>
 </Table>
 
-<Table striped bordered hover variant="dark">
-  <thead>
-    <tr>
-      <th>La Liga</th>
-      <th>Match</th>
- 
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>Real Madrid 3 : 0 Barcelona</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>Atl Madrid 3 : 3 Sevilla</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>Villareal 0 : 0 Real Zaragoza</td>
-    </tr>
-  </tbody>
-</Table>
 
-<Table striped bordered hover variant="dark">
-  <thead>
-    <tr>
-      <th>MLS</th>
-      <th>Match</th>
- 
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>Chicagoe Fire 3 : 0 Columbus Crew</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>NY Redbull 3 : 3 NYCFC</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>LA Galaxy 0 : 0 LAFC</td>
-    </tr>
-  </tbody>
-</Table>
+  
         </div>
     )
 }
