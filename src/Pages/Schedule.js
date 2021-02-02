@@ -1,36 +1,99 @@
 import React from 'react';
-import {Card, ListGroup} from 'react-bootstrap';
+import {Table} from 'react-bootstrap';
 
 function Schedule() {
     return (
         <div>
             <h1>Schedule</h1>
-            <Table striped bordered hover variant="dark">
+ <Table striped bordered hover variant="dark">
   <thead>
     <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
+      <th>EPL</th>
+      <th>Match</th>
+      <th>Time</th>
+      <th>TV</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td>Liverpool vs Everton</td>
+      <td>1:00PM</td>
+      <td>ESPN</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td></td>
+      <td>Man City vs Man United</td>
+      <td>1:00PM</td>
+      <td>SKY</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td colSpan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td></td>
+      <td>Chelsea vs Arsenal</td>
+      <td>1:00PM</td>
+      <td>BeinSports</td>
+    </tr>
+  </tbody>
+</Table>
+
+<Table striped bordered hover variant="dark">
+  <thead>
+    <tr>
+      <th>La Liga</th>
+      <th>Match</th>
+      <th>Time</th>
+      <th>TV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Real Madrid vs Barcelona</td>
+      <td>1:00PM</td>
+      <td>ESPN</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Atletico Madrid vs Sevilla</td>
+      <td>1:00PM</td>
+      <td>SKY</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Villareal vs Real Zaragoza</td>
+      <td>1:00PM</td>
+      <td>BeinSports</td>
+    </tr>
+  </tbody>
+</Table>
+
+<Table striped bordered hover variant="dark">
+  <thead>
+    <tr>
+      <th>MLS</th>
+      <th>Match</th>
+      <th>Time</th>
+      <th>TV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Chicago Fire vs Columbus Crew</td>
+      <td>1:00PM</td>
+      <td>ESPN</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>NY Redbull vs NYCFC</td>
+      <td>1:00PM</td>
+      <td>SKY</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>LAFC vs LA Galaxy</td>
+      <td>1:00PM</td>
+      <td>BeinSports</td>
     </tr>
   </tbody>
 </Table>
