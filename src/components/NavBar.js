@@ -9,9 +9,9 @@ const NavBar = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="navbar">
-      <Nav.Link href="#features">Scores</Nav.Link>
-      <Nav.Link href="#pricing">Schedule</Nav.Link>
-      <Nav.Link href="#pricing">Transfers</Nav.Link>
+      <Nav.Link href="/scores">Scores</Nav.Link>
+      <Nav.Link href="/schedule">Schedule</Nav.Link>
+      <Nav.Link href="/transfers">Transfers</Nav.Link>
       <NavDropdown title="Leagues" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.3">Champions League</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">MLS</NavDropdown.Item>
